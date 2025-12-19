@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Diaspora Remittance Platform",
+    "slug": "diaspora-remittance-platform",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1e40af"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.diaspora.remittance"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1e40af"
+      },
+      "package": "com.diaspora.remittance"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "sdkVersion": "54.0.0"
+  }
+}
